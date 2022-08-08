@@ -1,0 +1,130 @@
+body{
+    font-weight: bold;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.wether_card{
+    width: 40vw;
+    height: 300px;
+
+    background-color: rgb(153, 22, 240);
+    border-radius: 30px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    
+}
+
+@media(max-width:700px){
+    .wether_card{ 
+        width: 90%;
+
+    }
+    }
+
+
+.top_section{
+    background-size: 60px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-left: 0px;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: beige;
+}
+
+#temp{
+    margin-bottom: 12px;
+}
+
+#location{
+    margin-bottom: 12px;
+}
+
+#logo{
+    height: 100%;
+    width: 60px;
+    background-repeat: no-repeat;
+}
+
+.middle_section{
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-left: 0px;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 16px;
+    color: beige;
+}
+
+.next_days{
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+.second_day{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#second_day_logo{
+    background-repeat: no-repeat;
+    background-size: 40px;
+    width: 50px;
+    height: 50px;
+    margin-left: 7px;
+
+}
+
+.third_day{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#third_day_logo{
+    background-repeat: no-repeat;
+    background-size: 40px;
+    width: 50px;
+    height: 50px;
+    margin-left: 7px;
+}
+
+.fourth_day{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fourth_day_logo{
+    background-repeat: no-repeat;
+    background-size: 40px;
+    width: 50px;
+    height: 50px;
+    margin-left: 7px;
+}
+
+.fifth_day{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fifth_day_logo{
+    background-repeat: no-repeat;
+    background-size: 40px;
+    width: 50px;
+    height: 50px;
+    margin-left: 7px;
+}
