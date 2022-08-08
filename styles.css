@@ -18,12 +18,6 @@ body{
     
 }
 
-@media(max-width:700px){
-    .wether_card{ 
-        width: 90%;
-
-    }
-    }
 
 
 .top_section{
@@ -129,3 +123,43 @@ body{
     height: 50px;
     margin-left: 7px;
 }
+
+
+
+@media(max-width:700px){
+    .wether_card{ 
+        width: 90%;
+    }
+
+    .top_section{
+        font-size: 16px;
+    }
+
+    #second_day_name,
+    #third_day_name,
+    #fourth_day_name,
+    #fifth_day_name{
+        font-size: 10px
+    }
+
+    #second_day_temp,
+    #third_day_temp,
+    #fourth_day_temp,
+    #fifth_day_temp{
+        font-size: 11px;
+    }
+
+    #second_day_logo,
+    #third_day_logo,
+    #fourth_day_logo,
+    #fifth_day_logo{
+        background-size: 35px;
+        width: 40px;
+    height: 40px;
+    }
+
+    .middle_section{
+        font-size: 12px;
+    }
+
+    }
