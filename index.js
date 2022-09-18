@@ -1,7 +1,9 @@
 // https://weatherdbi.herokuapp.com/data/weather/tbilisi
 
 
-
+window.onload = ()=>{
+    getWeather()
+}
 
 const getWeather = async () => {
     try {
@@ -60,4 +62,3 @@ const getWeather = async () => {
 
 
 
-getWeather()

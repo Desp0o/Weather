@@ -1,23 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
+    width: 100%;
+    height: 100%;
     font-weight: bold;
     color: beige;
-    display: flex;
     justify-content: center;
-    
+    background-color: #636369;
 }
 
 .wether_card{
     width: 40vw;
     height: 300px;
-
+    margin: auto;
     background-color: #323140;
     border-radius: 30px;
     padding: 15px 20px;
     box-sizing: border-box;
-    margin-top: 20px;
-    
+    margin-top: 80px;
 }
 
+.navbar{
+    width: 100%;
+    height: 40px;
+    background-color: #323140;
+    top: 0;
+}
+
+.navbar_inner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar_inner_list{
+    display: flex;
+    gap: 40px;
+
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
 
 .top_section{
@@ -161,5 +195,41 @@ body{
     .middle_section{
         font-size: 12px;
     }
+
+    }
+
+
+
+    #newyork{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        position: absolute;
+        z-index: -2;
+    }
+
+    #batumi{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        position: absolute;
+        z-index: -2;
+    }
+
+    #tbilisi{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        position: absolute;
+        z-index: -2;
+    }
+
+    @media (max-width:600px) {
+        #batumi{
+            object-position:65% center;
+        }
 
     }
